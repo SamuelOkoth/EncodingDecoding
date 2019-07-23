@@ -39,6 +39,6 @@ import org.junit.Test;
             assertEquals("SAM" , testDecoding.decode());
         }
     }
-    csgxchs
+
 
 
