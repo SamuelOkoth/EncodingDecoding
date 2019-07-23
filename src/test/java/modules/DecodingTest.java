@@ -8,11 +8,11 @@ import org.junit.Test;
 
 
     public class DecodingTest {
-        Decoding testDecoding = new Decoding( 2, "MGNXKP MQUIGK");
+        Decoding testDecoding = new Decoding( 2, "UCO");
         @Test
         public void checkIfSavesInputText()
         {
-            assertEquals("MGNXKP MQUIGK", testDecoding.getInputText() );
+            assertEquals("UCO", testDecoding.getInputText() );
         }
 
         @Test
@@ -36,8 +36,9 @@ import org.junit.Test;
         @Test
         public void validDecoding()
         {
-            assertEquals("KELVIN KOSGEI" , testDecoding.decode());
+            assertEquals("SAM" , testDecoding.decode());
         }
     }
+    csgxchs
 
 
