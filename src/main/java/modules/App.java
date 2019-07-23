@@ -15,7 +15,8 @@ public class App {
             String inputText = scanner.nextLine().toUpperCase();
             System.out.println("Enter a key ");
             int key = scanner.nextInt();
-            Encoding encoding = new Encoding(inputText,key);
+            Encoding encoding;
+            encoding = new Encoding(inputText,key);
             System.out.println(String.format("Your encrypted text is:  %s",encoding.encode()));
 
         }
@@ -25,7 +26,8 @@ public class App {
             String inputText = scanner.nextLine().toUpperCase();
             System.out.println("Enter a key ");
             int key = scanner.nextInt();
-            Decoding decoding = new Decoding(key, inputText);
+            Decoding decoding;
+            decoding = new Decoding(key, inputText);
             System.out.println(String.format("Your decrypted text is:  %s",decoding.decode()));
         }
         else if(choice == 3)
