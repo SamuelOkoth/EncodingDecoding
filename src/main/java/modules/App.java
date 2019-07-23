@@ -15,8 +15,7 @@ public class App {
             String inputText = scanner.nextLine().toUpperCase();
             System.out.println("Enter a key ");
             int key = scanner.nextInt();
-            Encoding encoding;
-            encoding = new Encoding(inputText,key);
+            Encoding encoding = new Encoding(inputText,key);
             System.out.println(String.format("Your encrypted text is:  %s",encoding.encode()));
 
         }
