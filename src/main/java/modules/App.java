@@ -7,7 +7,7 @@ public class App {
 
         System.out.println(" What do you want to do?\n 1. Encode \n 2. Decode  \n 3. Quit");
         int choice = scanner.nextInt();
-        scanner.nextLine(); //throw away the \n not consumed by nextInt()
+        scanner.nextLine();
 
         if(choice == 1)
         {
@@ -39,4 +39,4 @@ public class App {
     }
 }
 
-ajscajxdksgchsfgcgshjcjddshhcdgszlgcvdzbchhdcc
+ajscajxdksgchsfgcgsjhgnhmj,klk,hmngfbdffghjhghj
