@@ -39,7 +39,7 @@ public class Decoding {
         {
             if (mInputText.charAt(i) == ' ')
             {
-                decodedValue += " ";
+                decodedValue += "";
             }
             else
             {

@@ -47,7 +47,7 @@ public class Encoding {
             {
                 if (mInputText.charAt(i) == ' ')
                 {
-                    encoded += " ";
+                    encoded += "";
                 }
                 else
                 {
